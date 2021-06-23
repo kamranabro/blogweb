@@ -1,0 +1,97 @@
+body,html{
+    overflow-x: hidden;
+}
+
+.slider-img{
+    width: auto;
+    height: 580px;
+    filter: blur(1px);
+}
+.container{
+    max-width: 1100px;
+    margin: 10px;
+}
+.card{
+    margin: 10px;
+    border: none;
+}
+.search{
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.boxes{
+    display: flex;
+}
+.card-text{
+    font-size: 12px;
+}
+.card-title{
+    font-size: 17px;
+}
+.card-img-top{
+    margin-top: 8px;
+    width: auto;
+    height: 130px;
+}
+.navbar{
+    background: rgb(0,0,0,0.5);
+}
+
+.navbar-brand{
+    color: #c5d8d8;
+}
+.navbar .nav-link{
+    cursor: pointer;   
+}
+.navbar span:hover{
+    color: #c5d8d8;
+    
+}
+.navbar-brand span{
+    color: yellow;
+}
+.navbar-brand{
+    font-size: 32px;
+}
+.nav-link{
+    font-style: italic;
+    font-size: 15px;
+    color: #c5d8d8;
+}
+.carousel-caption{
+    color:  whitesmoke;
+}
+.carousel-control{
+   color: whitesmoke !important;
+}    
+.active{
+    color: yellow;
+}
+.icon{
+    margin: 2rem;
+    text-align: center;
+}
+.icon a{
+    color: black;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+
+@media screen and (max-width: 991px) {
+    .card{
+        margin: 2px;
+    }
+    .container{
+        margin: 2px;
+    }
+    .boxes{
+        display: block;
+    }
+
+}
